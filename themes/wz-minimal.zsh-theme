@@ -2,8 +2,8 @@
 ## 2012/12/13
 
 # PROMPT
-PROMPT="(%n%B@%b%m) %{$fg_bold[green]%}%~%{$reset_color%} %{$fg_bold[cyan]%}%#%{$reset_color%} "
-RPROMPT="<%B%*%b %D> (%B%y%b)"
+PROMPT="(%n%B@%b%m) %2~ %B%#%b "
+RPROMPT="<%B%*%b"
 
 # ALIAS(es)
 alias omzreload=". ${HOME}/.zshrc"
